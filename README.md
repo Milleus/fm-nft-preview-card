@@ -36,7 +36,7 @@ Mobile view
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-rJRIRaSVc](https://www.frontendmentor.io/solutions/nft-preview-card-component-rJRIRaSVc)
-- Live Site URL: [https://nft-preview.davequah.com/](https://nft-preview.davequah.com/)
+- Live Site URL: [https://Milleus.github.io/fm-nft-preview-card/](https://Milleus.github.io/fm-nft-preview-card/)
 
 ## My process
 
