@@ -26,47 +26,46 @@
 </head>
 
 <body>
-  <header class="text-neutral-800 text-center my-16">
-    <h1>NFT preview card component</h1>
-  </header>
+  <div class="container grid">
+    <main>
+      <h1 class="sr-only">NFT preview card component</h1>
+      <div class="card bg-blue-800">
+        <button>
+          <span class="sr-only">View Equilibrium #3429</span>
+        </button>
 
-  <main>
-    <div class="card bg-blue-800">
-      <button>
-        <span class="sr-only">View Equilibrium #3429</span>
-      </button>
+        <h2 class="fs-600 fw-600 mt-24"><a href="#">Equilibrium #3429</a></h2>
+        <p class="fw-300 mt-12 md-mt-16">Our Equilibrium collection promotes balance and calm.</p>
 
-      <h2 class="fs-600 fw-600 mt-24"><a href="#">Equilibrium #3429</a></h2>
-      <p class="fw-300 mt-12 md-mt-16">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="card-details flex mt-16 md-mt-24">
+          <div class="flex">
+            <img src="/assets/icon-ethereum.svg" alt="">
+            <p class="fs-300 fw-600 text-cyan-400">0.041 ETH</p>
+          </div>
 
-      <div class="card-details flex mt-16 md-mt-24">
-        <div class="flex">
-          <img src="/assets/icon-ethereum.svg" alt="">
-          <p class="fs-300 fw-600 text-cyan-400">0.041 ETH</p>
+          <div class="flex">
+            <img src="/assets/icon-clock.svg" alt="">
+            <time class="fs-300 fw-500" datetime="PT72H00M">3 days left</time>
+          </div>
         </div>
 
-        <div class="flex">
-          <img src="/assets/icon-clock.svg" alt="">
-          <time class="fs-300 fw-500" datetime="PT72H00M">3 days left</time>
+        <div class="card-line mt-16 md-mt-24"></div>
+
+        <div class="card-creator flex mt-16">
+          <img src="/assets/image-avatar.png" alt="Jules Wyvern">
+          <p class="fs-300 fw-500">Creation of <a href="#">Jules Wyvern</a></p>
         </div>
       </div>
+    </main>
 
-      <div class="card-line mt-16 md-mt-24"></div>
-
-      <div class="card-creator flex mt-16">
-        <img src="/assets/image-avatar.png" alt="Jules Wyvern">
-        <p class="fs-300 fw-500">Creation of <a href="#">Jules Wyvern</a></p>
-      </div>
-    </div>
-  </main>
-
-  <footer class="text-neutral-800 text-center fs-300 fw-500 my-16">
-    <p>
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
-        Mentor</a>.
-      Coded by <a href="https://www.frontendmentor.io/profile/Milleus">Dave Quah (@Milleus)</a>.
-    </p>
-  </footer>
+    <footer>
+      <p class="text-neutral-800 text-center fs-300 fw-500">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+          Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/Milleus">Dave Quah (@Milleus)</a>.
+      </p>
+    </footer>
+  </div>
 </body>
 
 </html>
