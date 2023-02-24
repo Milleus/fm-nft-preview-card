@@ -143,16 +143,10 @@ h3 {
   border: 0;
 }
 
-.bg-neutral-100 {
-  background-color: hsl(var(--clr-neutral-100));
-}
 .bg-blue-800 {
   background-color: hsl(var(--clr-blue-800));
 }
 
-.text-neutral-100 {
-  color: hsl(var(--clr-neutral-100));
-}
 .text-cyan-400 {
   color: hsl(var(--clr-cyan-400));
 }
@@ -180,6 +174,7 @@ h3 {
 .mt-24 {
   margin-top: 1.5rem;
 }
+
 @media (min-width: 35em) {
   .md-mt-16 {
     margin-top: 1rem;
